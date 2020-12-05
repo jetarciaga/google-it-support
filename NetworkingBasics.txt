@@ -1,0 +1,57 @@
+TCP/IP Five-Layer Network Model
+
+# | Layer Name  |     Protocol      | Protocol Data Unit | Addressing
+5 | Application | HTTP, SMTP, etc.. |  Messages          | n/a
+4 | Transport   | TCP/UDP           |  Segment           | Port #'s
+3 | Network     | IP                |  Datagram          | IP address
+2 | Data link   | Ethernet, Wi-Fi   |  Frames            | MAC address
+1 | Physical    | 10 Base T, 802.11 |  Bits              | n/a
+
+
+
+Collission Domain - A network segment where only one device can
+communicate at a time.
+
+MAC(Media Access Control) address
+
+Client - something that requests data from server.
+
+Switch - a device that connects lots of devices and remembers
+which ones are connected to each interface.
+       - a device that will have the most network ports
+
+TCP(Transmission Control Protocol)
+
+Network Layer - TCP/IP model that use IP
+
+TCP and UDP(User Datagram Protocol) - works at Transport Layer
+and ensures that data gets to the right applications running on
+those nodes
+
+A system has defined specification that describe how signals are
+sent over connections. Which layer of the TCP/IP model provides
+this function?
+X - Transport
+TRY - Data link
+
+Cables - allow you to form point-to-point networking connections
+
+Router - a device that forwards data and operates at third layer
+Network Layer in TCP/IP
+
+Modulation/Line coding - sends ones and zeroes across network
+cables
+
+CSMA/CD(Carrier Sense Multiple Access with Collision Detection)
+- used to determine when the communications channels are clear
+and when a device is free to transmit data.
+
+The first three octet of MAC address identify the manufacturer
+of a network interface.
+
+EtherType field - a section of ethernet frame wher you will
+find a VLAN(Virtual Local Area Network) header
+
+Where is the Start Frame Delimiter(SFD) found in an ethernet frame?
+X - The last byte of EtherType field
+TRY - The last byte of the preamble
